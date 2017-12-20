@@ -1,2 +1,5 @@
-# landzilla-theme
-A green WordPress theme in classic blog style  – Vladimir Simović
+# Landzilla WordPress Theme
+
+A WordPress theme in classic blog style
+
+– Vladimir Simović
