@@ -1,0 +1,371 @@
+/*
+Theme Name: Landzilla
+Theme URI: http://www.wordpress-themes.perun.net/
+Description: Landzilla is a Theme for WP 2.x. Made by <a href ="http://www.vlad-design.de">Vladimir Simovic</a> (aka <a href="http://www.perun.net">Perun</a>).
+Version: 2.6.1
+Author: Vladimir Simovic (aka Perun)
+Author URI: http://www.vlad-design.de
+Tags: green, landscape, widget-ready, two-column, widgets
+
+The CSS, XHTML and design is released under GPL:
+http://www.opensource.org/licenses/gpl-license.php
+*/
+
+body {
+    padding: 0 0 2em 0;
+    margin: 0;
+    text-align: center;
+    font: 62.5% verdana, sans-serif;
+    background: #759D00 url(images/top.gif) repeat-x;
+    color: #333;
+    line-height: 150%;
+}
+
+hr {
+    display: none;
+}
+
+img {
+    border: none;
+}
+
+ins {
+    text-decoration: none;
+    border-bottom: 1px dashed #F26722;
+}
+
+acronym, abbr, dfn {
+    border-bottom: 1px dashed #333;
+    font-style: normal;
+}
+
+blockquote {
+    border-left: 5px solid #759D00;
+    margin: 1em 0;
+    padding: 5px 10px;
+    background: #E3EBCC;
+    width: 90%;
+}
+
+code, pre {
+    color: #F26722;
+    font: 1.1em 'courier new', courier, monospace;
+}
+
+/* Bild links ausgerichtet: Image floats left*/
+.bild-links {
+    float: left;
+    margin: 0 15px 3px 0;
+}
+
+/* Bild rechts ausgerichtet; Image floats right*/
+.bild-rechts {
+    float: right;
+    margin: 0 0 3px 15px;
+}
+
+.pagination {
+    text-align: center;
+    margin-top: 2em;
+}
+
+.center {
+    text-align: center;
+}
+
+#container {
+    text-align: left;
+    margin: 0 auto;
+    width: 770px;
+    padding: 0 0 1px 0;
+    position: relative;
+    background: url(images/background.jpg) repeat-y;
+    border-bottom: 1px solid #ddd;
+}
+
+/* Kopfbereich (Header) */
+#kopf {
+    background: url(images/header.jpg) no-repeat;
+    height: 190px;
+    margin-bottom: 15px;
+}
+
+#kopf h1 {
+    font: 22px 'trebuchet ms', sans-serif;
+    color: #759D00;
+    margin: 0;
+    padding: 10px 15px;
+}
+
+#kopf h1 a {
+    color: #759D00;
+    text-decoration: none;
+}
+
+/* Navigation (Sidebar) */
+#navi {
+    float: right;
+    width: 200px;
+    text-align: center;
+    background: #E3EBCC;
+    font-size: 1.1em;
+    padding: 0 0 5px 0;
+    margin: 0 15px 15px 0;
+    display: inline;
+}
+
+#navi ul, #navi ol, #navi p, #navi form, #navi dl {
+    text-align: left;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#navi div {
+    margin: 10px 10px 15px 10px;
+    text-align: left;
+}
+
+#navi form {
+    margin: .7em 0 1em 0;
+}
+
+#navi input {
+    border: 1px solid #759D00;
+    font-size: 1.1em;
+    background: #E3EBCC;
+}
+
+
+#navi h2 {
+    font: bold 1.2em verdana, sans-serif;
+    color: #fff;
+    margin: 0 0 .5em 0;
+    padding: 1px 5px 1px 15px;
+    background: #759D00 url(images/h3.gif) no-repeat center left;
+    text-align: left;
+}
+
+#navi a {
+    font-weight: bold;
+    color:#759D00;
+    text-decoration: none;
+}
+
+#navi a:hover {
+    color: #444;
+}
+
+#navi ul {
+    list-style: none;
+    margin: .5em 0 1em 0;
+}
+
+#navi ul ul {
+    margin: 2px 0 2px 7px;
+    padding: 0;
+}
+
+#navi .navi-search {
+    margin-bottom: 3px;
+    width: 150px;
+    background: #fff;
+}
+
+/* Inhalt (Content) */
+#inhalt {
+    margin-right: 235px;
+    margin-left: 15px;
+    padding: 1.1em 0;
+    font-size: 1.1em;
+}
+
+#inhalt h2 {
+    color: #666;
+    border-bottom: 1px solid #E3EBCC;
+    font: bold 1em verdana, sans-serif;
+    text-align: center;
+    margin: .5em 0 0 0;
+    padding: 2px 5px;
+}
+
+/* Ueberschrift fuer Seiten; Heading for Pages */
+#inhalt h2#page {
+    text-align: left;
+    padding: 2px 0 2px 17px;
+    margin: .5em 0;
+    font-size: 1.4em;
+    background: url(images/h3-inhalt.gif) no-repeat left center;
+}
+
+#inhalt h2 a {
+    text-decoration: none;
+}
+
+#inhalt h3 {
+    padding: 2px 0 2px 17px;
+    margin: .5em 0;
+    font-size: 1.4em;
+    background: url(images/h3-inhalt.gif) no-repeat left center;
+}
+
+#inhalt h3 a {
+    color: #648600;
+    text-decoration: none;
+}
+
+#inhalt h3 a:hover {
+    color: #759D00;
+    text-decoration: none;
+}
+
+#inhalt h4 {
+    font-size: 1.3em;
+    padding: 0;
+    margin: 1em 0;
+    color: #444;
+}
+
+#inhalt h5 {
+    font-size: 1.1em;
+    padding: 0;
+    margin: 1em 0;
+    color: #444;
+}
+
+#inhalt a, #footer a {
+    color: #6C9100;
+}
+
+#inhalt a:hover, #footer a:hover {
+    color: #444;
+    text-decoration: none;
+}
+
+#inhalt .meta {
+    font-size: .9em;
+    background: #E3EBCC;
+    margin: 0;
+    padding: 1px 5px;
+}
+
+#inhalt .feedback {
+    margin: 1em 1.7em 1.5em 1em;
+    text-align: right;
+    font-weight: bold;
+    background: url(images/kommentar.gif) no-repeat right center;
+    padding-right: 20px;
+}
+
+/* Kommentar-Bereich; Comment area*/
+#commentlist li {
+    margin-bottom: 1.5em;
+    padding-bottom: 1em;
+    border-bottom: 1px solid #E3EBCC;
+}
+
+#commentlist li img.avatar {
+    float: right; margin: 2px 0 5px 10px;
+    border: 1px solid #759d00; padding: 4px; background: #e3ebcc;
+}
+
+#commentform {
+    margin: 1em 0;
+    padding: 1em;
+    border: 1px solid #759D00;
+    background: #E3EBCC;
+}
+
+#commentform textarea {
+    border: 1px solid #759D00;
+    padding: 3px;
+    font: 1.1em verdana, sans-serif;
+    color: #444;
+    width: 480px;
+}
+
+/* Fuszbereich; Footer*/
+#footer {
+    clear: both;
+    margin-top: 3em;
+    padding: 15px;
+    text-align: center;
+    background: #E3EBCC;
+    border-top: 1px solid #759D00;
+}
+
+/* 3. Spezielle Formatierungen z.B. nur für Plugins */
+#ed_toolbar input {
+    border: 1px solid #759D00;
+    background: #E3EBCC;
+    font-size: 12px;
+    margin-right: 1px;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+/* *** Plugins *** */
+.tags {
+    margin: 1.5em 0;
+    font-weight: bold;
+    border-top: 1px solid #E3EBCC;
+    padding: 2px 0;
+}
+
+#wp_grins {
+    margin-top: 2px;
+}
+
+.pagebar {
+    text-align: center;
+    line-height: 1.4;
+    margin-top: 2em;
+}
+
+.pagebar .this-page {
+    font-weight: bold;
+}
+
+#inhalt .pagebar a {
+    border: 1px solid #759d00;
+    background: #e3ebcc;
+    padding: 2px 5px;
+    margin-bottom: 5px;
+    text-decoration: none;
+}
+
+#inhalt .pagebar a:hover {
+    background: #759D00;
+    color: #fff;
+}
+
+/* WordPress 2.6 */
+
+.aligncenter,
+div.aligncenter {
+   display: block; margin-left: auto; margin-right: auto; text-align: center;
+}
+.alignleft {
+   float: left;
+}
+.alignright {
+   float: right;
+}
+
+.wp-caption {
+   text-align: center;
+   background-color: #e3ebcc; border: 1px solid #759d00;
+   padding-top: 4px; margin: 10px;
+   /* optional rounded corners for browsers that support it */
+   -moz-border-radius: 3px; -khtml-border-radius: 3px; -webkit-border-radius: 3px; border-radius: 3px;
+}
+
+.wp-caption img {
+   margin: 0; padding: 0; border: 0 none;
+}
+
+#inhalt div.wp-caption a, #inhalt div.wp-caption a:hover { border: none; }
+
+#inhalt .wp-caption p.wp-caption-text {
+   font-size: 11px; line-height: 17px; color: #333;
+   padding: 0 5px 5px 5px; margin: 0;
+}
