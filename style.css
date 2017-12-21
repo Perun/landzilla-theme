@@ -3,8 +3,8 @@ Theme Name: Landzilla
 Theme URI: http://www.wordpress-themes.perun.net/
 Description: Landzilla is a Theme for WP 2.x. Made by <a href ="http://www.vlad-design.de">Vladimir Simovic</a> (aka <a href="http://www.perun.net">Perun</a>).
 Version: 2.6.1
-Author: Vladimir Simovic (aka Perun)
-Author URI: http://www.vlad-design.de
+Author: Vladimir Simović (aka Perun)
+Author URI: https://www.vladimir-simovic.de
 Tags: green, landscape, widget-ready, two-column, widgets
 
 The CSS, XHTML and design is released under GPL:
@@ -293,7 +293,7 @@ code, pre {
     border-top: 1px solid #759D00;
 }
 
-/* 3. Spezielle Formatierungen z.B. nur f�r Plugins */
+/* 3. Spezielle Formatierungen z.B. nur für Plugins */
 #ed_toolbar input {
     border: 1px solid #759D00;
     background: #E3EBCC;
